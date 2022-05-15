@@ -1,0 +1,8 @@
+**/*.js
+react-app-env.d.ts
+setupTests.ts
+serviceWorker.ts
+node_modules
+lintersReports
+build
+.gitignore

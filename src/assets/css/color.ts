@@ -1,0 +1,16 @@
+export const color = {
+  app: '#FFFFFF',
+  green: '#008000',
+  red: '#D71920',
+  white: 'white',
+  warning: '#FFFF00',
+  black: '#000000',
+  gray: '#F0F4F8',
+  mediumBlack: '#3B3B3B',
+  lightGray: '#D4D4D8',
+  pink: '#FE3E6D',
+  softBlue: '#EAF7FF',
+  mediumGray: '#C7CBCF',
+  softGray: '#6B7076',
+  blue: '#1A93DA',
+};

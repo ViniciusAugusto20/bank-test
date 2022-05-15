@@ -1,0 +1,23 @@
+{
+  "processors": [
+    "stylelint-processor-styled-components"
+  ],
+  "extends": [
+    "stylelint-config-recommended",
+    "stylelint-config-styled-components"
+  ],
+ "rules": {
+    "string-quotes": "double",
+    "string-no-newline": true,
+    "no-duplicate-selectors": true,
+    "no-descending-specificity": false,
+    "value-list-comma-space-after": "always-single-line",
+    "block-closing-brace-space-after": "always-single-line",
+    "color-hex-case": "lower",
+    "declaration-block-no-duplicate-properties": true,
+    "declaration-block-no-shorthand-property-overrides": true,
+    "block-no-empty": true,
+    "color-no-invalid-hex": true
+  },
+  ignoreFiles: ["node_modules/**", "dist", ".linaria-cache", "build"],
+}
